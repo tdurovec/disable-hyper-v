@@ -1,4 +1,6 @@
 
+run as admin
+
 ### disable
 ```
 Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard" -Name "EnableVirtualizationBasedSecurity" -Value 0
